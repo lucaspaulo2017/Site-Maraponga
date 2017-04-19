@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/icons/MaterialIcons-Regular.eot); /* Para IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(../fonts/icons/MaterialIcons-Regular.woff2) format('woff2'),
+    url(../fonts/icons/MaterialIcons-Regular.woff) format('woff'),
+    url(../fonts/icons/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Tamanho do ícone preferido */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Suporte para todos os navegadores WebKit. */
+  -webkit-font-smoothing: antialiased;
+  /* Suporte para Safari e Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Suporte para Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Suporte para IE. */
+  font-feature-settings: 'liga';
+}
